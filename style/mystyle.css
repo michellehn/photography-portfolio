@@ -1,0 +1,316 @@
+body{
+    font-family:'Century Gothic';
+    color:#164859;
+    background: url("../photos/background/1.jpg") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#menu {
+    float:left;
+    position:fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #FFFFFF;
+    width:270px;
+    margin-left:0;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 44%;
+    margin-bottom: 45px;
+}
+.seprub{
+    height:1px;
+    width:20px;
+    background:#164859;
+    margin:30px auto;
+}
+ul.a{
+    list-style-type: none;
+    left:0;
+    padding:0px;
+}
+ul.a li {
+    padding: 15px;
+    }
+ul.a a:link, ul.a a:visited{
+    color:#164859;
+    text-decoration:none;
+}
+ul.a a:hover, ul.a a.active{
+    color: #99cc66;
+}
+
+#genremenu {
+    float:left;
+    position:fixed;
+    left: 270px;
+    top:0;
+    height:100%;
+    background:#164859;
+    width:150px;
+    margin-left:0;
+    text-align:center;
+}
+ul.sub{
+    list-style-type: none;
+    padding:0px;
+    margin-top:229px;
+}
+ul.sub li{
+    padding:20px;
+}
+#genremenu ul.sub a:link, ul.sub a:visited{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+#genremenu ul.sub a:hover, #genremenu ul.sub a.active{
+    color:#99cc66;
+}
+
+#mainhome{
+    margin-left:270px;
+}
+
+#main{
+    margin-left:420px;
+}
+h1{
+    font-family:'Gill Sans';
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top:20%;
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h2{
+    font-family:'Gill Sans';
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top:7%;
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h3{
+    font-family:'Gill Sans';
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top:10%;
+    font-size: 180%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h4{
+    font-family:'Gill Sans';
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.photos{
+    text-align:center;
+    margin-top: 30px;
+    max-width: 100%;
+}
+.photos img{
+    width: 93%;
+    min-width: 400px;
+    max-width: 100%;
+}
+
+ul.b{
+    list-style-type: none;
+    text-align: center;
+    margin: 50px;
+    padding:0;
+}
+ul.b li{
+    display: inline-block;
+    height:250px;
+    position: relative;
+    width: 250px;
+}
+/*image hover code adapted from source:
+ *http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/ */
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: table;
+    width: 250px;
+    height:250px;
+    left:0;
+    position:absolute;
+    top:0;
+    opacity: 0;
+    -webkit-transition: opcacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+ul.b li:hover span.text-content{
+    opacity:1
+}
+
+.social {
+    text-align: center;
+}
+ul.social{
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+    margin-top:40px;
+}
+ul.social li{
+    display: inline-block;
+    padding: 15px;
+}
+
+#me{
+    float:left;
+    margin-left: 100px;
+}
+p.main{
+    font-size: 110%;
+    padding: 25px;
+    margin-left: 500px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+/*------------------form style----------------------*/
+
+#formbox {
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: 3px solid;
+    border-color:#164859;
+    background: rgba(255,255,255,0.5);
+    padding: 40px;
+}
+
+input[type=submit] {
+    padding: 5px;
+    color: #ffffff;
+    border: none;
+    background: #164859;
+    font-size: 18px;
+    font-family:'Century Gothic';
+    margin-left: 220px;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+    background: #99cc66;
+}
+textarea{
+    border: 1px solid;
+}
+select{
+    border: 1px solid;
+    border-color: #cccccc;
+}
+input:focus, textarea:focus, select:focus{
+    border: solid 2px;
+    border-color:#99cc66;
+    outline:none;
+    transition: border 0.3s;
+}
+input[type=submit]:focus{
+    border:none;
+}
+textarea{
+    color:#164859;
+    border-color: #cccccc;
+}
+input{
+    color:#164859;
+}
+#what {
+    background: #ffffff;
+}
+
+#formbox p{
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 5px;
+    font-size: 95%;
+}
+#formbox .optional{
+    font-size: 80%;
+    text-align: left;
+    margin-left: 11px;
+}
+.error {
+    color: #df0000;
+    font-size: 12px;
+    position: absolute;
+}
+#nameerror, #emailerror, #numbererror{
+    margin-top: 25px;
+}
+#messageerror{
+    text-align: right;
+    width: 480px;
+    margin-top: -15px;
+}
+h5{
+    font-weight: bold;
+    text-align: center;
+    font-family:'Century Gothic';
+    margin: 0 auto;
+    font-size: 105%;
+    margin-bottom: 20px;
+}
+#titleerror{
+    color: #df0000;
+}
+.formright{
+    float:right;
+}
+
+#name, #email, #number{
+    width: 200px;
+    padding: 3px;
+    font-size: 80%;
+    margin-bottom:20px;
+}
+#name .errorhilite{
+    border: 2px solid;
+    border-color: #df0000;
+}
+#what{
+    margin-right:25px;
+    width:195px;
+    font-size: 80%;
+    padding: 3px;
+}
+#how{
+    margin-right:25px;
+    margin-top: -120px;
+}
+#checkboxes{
+    margin-top:8px;
+    font-size: 90%;
+}
+.formgroup{
+    font-size: 95%;
+}
+#message{
+    font-size: 85%;
+    padding: 10px;
+}
