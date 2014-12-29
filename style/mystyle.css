@@ -179,15 +179,25 @@ ul.social li{
 }
 
 #me{
-    float:left;
-    margin-left: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+#me img{
+    border-radius: 500px;
+    margin: auto;
+    width: 100%;
+    margin-top: 15px;
 }
 p.main{
-    font-size: 110%;
-    padding: 25px;
-    margin-left: 500px;
-    margin-right: 50px;
-    text-align: left;
+    display: block;
+    margin: auto;
+    font-size: 100%;
+    padding: 20px;
+    margin: 40px;
+    background: #ffffff;
+    box-shadow: 0 0 10px #164859;
 }
 
 /*------------------form style----------------------*/
