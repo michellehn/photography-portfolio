@@ -1,4 +1,4 @@
-Apple Harvest Festival 2014 Site
+Photography Portfolio
 =====
 [mnphotography.bitballoon.com/](http://mnphotography.bitballoon.com/)
 - - - - -
@@ -7,7 +7,7 @@ Apple Harvest Festival 2014 Site
 ![screenshot2](https://raw.githubusercontent.com/michellehn/photography-portfolio/master/photos/screenshots/screenshot2.png)
 - - - - -
 
-This is a portfolio site the displays some of my photography. It was a project for my Web Design course at Cornell University.
+This is a portfolio site the displays some of my photography, broken up into various categories such as nature and landscape photography. It was a project for my Web Design course at Cornell University.
 
 
 ### Main categories on Photography Portfolio site
